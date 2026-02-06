@@ -1,5 +1,4 @@
-# Sales Performance Overview – KPI Dashboard  
-*(SQL + Power BI)*
+# Sales Performance Reporting & KPI Analysis (SQL + Power BI)
 
 ## Project Overview
 This project presents a **single-page KPI dashboard** designed to analyze **overall sales performance** using the Superstore dataset.  
