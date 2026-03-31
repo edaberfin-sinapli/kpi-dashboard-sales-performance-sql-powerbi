@@ -2,18 +2,18 @@
 
 ## Proje Özeti
 
-Bu projede, Superstore veri seti kullanılarak tek sayfalık bir KPI dashboard oluşturulmuştur.
-Amaç; satış performansını üst seviyede izlemek, temel metrikleri takip etmek ve yönetim raporlamasına uygun bir yapı oluşturmaktır.
-Veri hazırlama ve hesaplamalar SQL ile yapılmış, görselleştirme ve raporlama süreci ise Power BI üzerinden gerçekleştirilmiştir.
-Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan gerçek iş senaryolarına uygun şekilde tasarlanmıştır.
+Bu projede, Superstore veri seti kullanılarak tek sayfalık bir KPI dashboard oluşturulmuştur.  
+Amaç; satış performansını üst seviyede izlemek, temel metrikleri takip etmek ve yönetim raporlamasına uygun bir yapı oluşturmaktır.  
+Veri hazırlama ve hesaplamalar SQL ile yapılmış, görselleştirme ve raporlama süreci ise Power BI üzerinden gerçekleştirilmiştir.  
+Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan gerçek iş senaryolarına uygun şekilde tasarlanmıştır.  
 
 ---
 
 ## Cevaplanan İş Soruları
-- Toplam satış performansı nedir?
-- Kaç adet sipariş ve müşteri bu geliri oluşturmuştur?
-- Ortalama sipariş tutarı (AOV) nedir?
-- Satışlar zaman içinde (aylık) nasıl değişmektedir?
+- Toplam satış performansı nedir?  
+- Kaç adet sipariş ve müşteri bu geliri oluşturmuştur?  
+- Ortalama sipariş tutarı (AOV) nedir?  
+- Satışlar zaman içinde (aylık) nasıl değişmektedir?  
 - Hangi kategori, bölge ve müşteri segmentleri daha yüksek performans göstermektedir?
 
 ---
