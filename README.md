@@ -1,71 +1,74 @@
 # Sales Performance Reporting & KPI Analysis (SQL + Power BI)
 
-## Project Overview
-This project presents a **single-page KPI dashboard** designed to analyze **overall sales performance** using the Superstore dataset.  
-The dashboard focuses on **high-level business KPIs** and **core sales breakdowns**, making it suitable for **executive reporting**, **management reviews**, and **banking / corporate BI use cases**.
+## Proje Özeti
 
-All data preparation and aggregations were performed in **SQL**, while the final visualization and dashboard design were built in **Power BI**.
-
----
-
-## Business Questions Answered
-- What is the **total sales performance** over the entire period?
-- How many **orders** and **unique customers** contributed to revenue?
-- What is the **Average Order Value (AOV)**?
-- How do sales **trend over time (monthly)**?
-- Which **categories, regions, and customer segments** generate the most revenue?
+Bu projede, Superstore veri seti kullanılarak tek sayfalık bir KPI dashboard oluşturulmuştur.
+Amaç; satış performansını üst seviyede izlemek, temel metrikleri takip etmek ve yönetim raporlamasına uygun bir yapı oluşturmaktır.
+Veri hazırlama ve hesaplamalar SQL ile yapılmış, görselleştirme ve raporlama süreci ise Power BI üzerinden gerçekleştirilmiştir.
+Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan gerçek iş senaryolarına uygun şekilde tasarlanmıştır.
 
 ---
 
-## Key KPIs
-- **Total Sales**
-- **Total Orders**
-- **Total Customers**
-- **Average Order Value (AOV)**
+## Cevaplanan İş Soruları
+- Toplam satış performansı nedir?
+- Kaç adet sipariş ve müşteri bu geliri oluşturmuştur?
+- Ortalama sipariş tutarı (AOV) nedir?
+- Satışlar zaman içinde (aylık) nasıl değişmektedir?
+- Hangi kategori, bölge ve müşteri segmentleri daha yüksek performans göstermektedir?
 
 ---
 
-## Dashboard Components
-- **Monthly Sales Trend**  
-  Line chart showing revenue evolution over time to identify growth patterns and seasonality.
-
-- **Sales by Category**  
-  Comparison of total sales across product categories.
-
-- **Sales by Region**  
-  Regional performance breakdown highlighting top and underperforming regions.
-
-- **Sales by Segment**  
-  Revenue contribution by customer segment (Consumer, Corporate, Home Office).
+## Temel KPI’lar
+- Toplam Satış (Total Sales)
+- Toplam Sipariş (Total Orders)
+- Toplam Müşteri (Total Customers)
+- Ortalama Sipariş Tutarı (Average Order Value – AOV)
 
 ---
 
-## Tools & Technologies
+## Dashboard İçeriği
+- **Monthly Sales Trend (Aylık Satış Trendi)**  
+  Zaman içinde satışların nasıl değiştiğini gösterir.
+  Artış/azalış eğilimleri ve dönemsel hareketler takip edilebilir.
+
+- **Sales by Category (Kategori Bazlı Satış)**  
+  Ürün kategorilerinin toplam satışa katkısını karşılaştırır.
+
+- **Sales by Region (Bölge Bazlı Satış)**  
+  Bölgeler arası performans farklarını gösterir.
+  Yüksek ve düşük performanslı bölgeler kolayca analiz edilebilir.
+
+- **Sales by Segment (Segment Bazlı Satış)**  
+  Müşteri segmentlerinin (Consumer, Corporate, Home Office) satışa katkısını gösterir.
+
+---
+
+## Kullanılan Teknolojiler
 - **SQL (MySQL)**  
-  - Data cleaning  
-  - KPI calculations  
-  - Aggregated reporting views
+  - Veri temizleme
+  - KPI hesaplamaları
+  - Raporlama için view oluşturma
 
 - **Power BI**  
-  - KPI cards  
-  - Line and bar charts  
-  - Dashboard layout and formatting
+  - KPI kartları
+  - Grafikler (line & bar chart) 
+  - Dashboard tasarımı
 
-- **Dataset**  
+- **Veri Seti**  
   - Superstore Sales (`train_fixed.csv`)
 
 ---
 
-## Key Insights
-- Sales show a **clear upward trend** over time with visible seasonal fluctuations.
-- **Consumer segment** contributes the highest share of total sales.
-- **Technology** is the leading product category by revenue.
-- **West and East regions** outperform other regions in total sales.
-- Average Order Value indicates **strong per-transaction revenue**, suitable for KPI-driven monitoring.
+## Öne Çıkan İçgörüler
+- Satışlar genel olarak artış trendi göstermektedir.
+- Consumer segmenti en yüksek katkıyı sağlamaktadır.
+- Technology kategorisi en yüksek gelir üreten kategoridir.
+- West ve East bölgeleri diğer bölgelere göre daha yüksek performans göstermektedir.
+- Ortalama sipariş tutarı, işlem başına gelirin güçlü olduğunu göstermektedir.
 
 ---
 
-## Project Structure
+## Proje Yapısı
 
 <pre>
 kpi-dashboard-sales-performance-sql-powerbi/
@@ -83,6 +86,6 @@ kpi-dashboard-sales-performance-sql-powerbi/
 
 ---
 
-## Notes
-- The project is intentionally designed as a **single-page KPI dashboard** to reflect real-world executive reporting standards.
-- The structure and metrics are aligned with **junior Business / Data Analyst** expectations in banking and retail analytics roles.
+## Notlar
+- Proje, gerçek iş hayatında kullanılan tek sayfa KPI dashboard mantığıyla hazırlanmıştır.
+- Yapı, özellikle operasyon, raporlama ve iş analisti pozisyonları için uygun olacak şekilde kurgulanmıştır.
