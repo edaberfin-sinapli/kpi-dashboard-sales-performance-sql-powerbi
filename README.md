@@ -19,23 +19,23 @@ Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan 
 ---
 
 ## Temel KPI’lar
-- Toplam Satış (Total Sales)
-- Toplam Sipariş (Total Orders)
-- Toplam Müşteri (Total Customers)
-- Ortalama Sipariş Tutarı (Average Order Value – AOV)
+- Toplam Satış (Total Sales)  
+- Toplam Sipariş (Total Orders)  
+- Toplam Müşteri (Total Customers)  
+- Ortalama Sipariş Tutarı (Average Order Value – AOV)  
 
 ---
 
 ## Dashboard İçeriği
 - **Monthly Sales Trend (Aylık Satış Trendi)**  
-  Zaman içinde satışların nasıl değiştiğini gösterir.
+  Zaman içinde satışların nasıl değiştiğini gösterir.  
   Artış/azalış eğilimleri ve dönemsel hareketler takip edilebilir.
 
 - **Sales by Category (Kategori Bazlı Satış)**  
   Ürün kategorilerinin toplam satışa katkısını karşılaştırır.
 
 - **Sales by Region (Bölge Bazlı Satış)**  
-  Bölgeler arası performans farklarını gösterir.
+  Bölgeler arası performans farklarını gösterir.  
   Yüksek ve düşük performanslı bölgeler kolayca analiz edilebilir.
 
 - **Sales by Segment (Segment Bazlı Satış)**  
@@ -45,13 +45,13 @@ Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan 
 
 ## Kullanılan Teknolojiler
 - **SQL (MySQL)**  
-  - Veri temizleme
-  - KPI hesaplamaları
+  - Veri temizleme  
+  - KPI hesaplamaları  
   - Raporlama için view oluşturma
 
 - **Power BI**  
-  - KPI kartları
-  - Grafikler (line & bar chart) 
+  - KPI kartları  
+  - Grafikler (line & bar chart)  
   - Dashboard tasarımı
 
 - **Veri Seti**  
@@ -60,10 +60,10 @@ Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan 
 ---
 
 ## Öne Çıkan İçgörüler
-- Satışlar genel olarak artış trendi göstermektedir.
-- Consumer segmenti en yüksek katkıyı sağlamaktadır.
-- Technology kategorisi en yüksek gelir üreten kategoridir.
-- West ve East bölgeleri diğer bölgelere göre daha yüksek performans göstermektedir.
+- Satışlar genel olarak artış trendi göstermektedir.  
+- Consumer segmenti en yüksek katkıyı sağlamaktadır.  
+- Technology kategorisi en yüksek gelir üreten kategoridir.  
+- West ve East bölgeleri diğer bölgelere göre daha yüksek performans göstermektedir.  
 - Ortalama sipariş tutarı, işlem başına gelirin güçlü olduğunu göstermektedir.
 
 ---
@@ -87,5 +87,5 @@ kpi-dashboard-sales-performance-sql-powerbi/
 ---
 
 ## Notlar
-- Proje, gerçek iş hayatında kullanılan tek sayfa KPI dashboard mantığıyla hazırlanmıştır.
+- Proje, gerçek iş hayatında kullanılan tek sayfa KPI dashboard mantığıyla hazırlanmıştır.  
 - Yapı, özellikle operasyon, raporlama ve iş analisti pozisyonları için uygun olacak şekilde kurgulanmıştır.
