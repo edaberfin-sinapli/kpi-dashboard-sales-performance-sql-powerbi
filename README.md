@@ -3,8 +3,11 @@
 ## Proje Özeti
 
 Bu projede, Superstore veri seti kullanılarak tek sayfalık bir KPI dashboard oluşturulmuştur.
+
 Amaç; satış performansını üst seviyede izlemek, temel metrikleri takip etmek ve yönetim raporlamasına uygun bir yapı oluşturmaktır.
+
 Veri hazırlama ve hesaplamalar SQL ile yapılmış, görselleştirme ve raporlama süreci ise Power BI üzerinden gerçekleştirilmiştir.
+
 Bu çalışma; operasyon, raporlama (MIS) ve iş analizi rollerinde kullanılan gerçek iş senaryolarına uygun şekilde tasarlanmıştır.
 
 ---
